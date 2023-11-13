@@ -1,0 +1,32 @@
+name: app_lifecycle_observer
+description: Flutter lifecycle observer independent of context.
+version: 0.0.1
+homepage: https://pub.dev/packages/app_lifecycle_observer
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.github.aakira.app_lifecycle_observer
+        pluginClass: AppLifecycleObserverPlugin
+      ios:
+        pluginClass: AppLifecycleObserverPlugin
+      linux:
+        pluginClass: AppLifecycleObserverPlugin
+      macos:
+        pluginClass: AppLifecycleObserverPlugin
+      windows:
+        pluginClass: AppLifecycleObserverPluginCApi

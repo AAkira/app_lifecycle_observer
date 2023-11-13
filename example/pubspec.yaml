@@ -1,0 +1,25 @@
+name: app_lifecycle_observer_example
+description: Demonstrates how to use the app_lifecycle_observer plugin.
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  app_lifecycle_observer:
+    path: ../
+
+  go_router: ^12.1.1
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
